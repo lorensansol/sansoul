@@ -1,7 +1,10 @@
 
 # default with option in cms
 
-Paginate: 24
+pagination:
+  disableAliases: false
+  pagerSize: 24
+  path: page
 buildFuture: false
 logo: logo.png
 
@@ -10,7 +13,8 @@ languages:
     weight: 1
     languageName: Español
     params: { flag: 🇪🇸 }
-    paginatePath: pagina
+    pagination:
+      path: pagina
     permalinks:
       page:
         pages: :slug
@@ -34,7 +38,8 @@ languages:
     weight: 2
     languageName: English
     params: { flag: 🇬🇧 }
-    paginatePath: page
+    pagination:
+      path: page
     permalinks:
       page:
         pages: :slug
@@ -58,7 +63,8 @@ languages:
     weight: 3
     languageName: Français
     params: { flag: 🇫🇷 }
-    paginatePath: page
+    pagination:
+      path: page
     permalinks:
       page:
         pages: :slug
