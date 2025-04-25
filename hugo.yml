@@ -1,5 +1,5 @@
 baseURL: https://sansoul.netlify.com
-Paginate: 24
+# Paginate: 24
 buildFuture: false
 theme: [sansoul]
 params:
